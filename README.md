@@ -5,7 +5,7 @@ for  iOS Study
 </br>
 
 ## SWIFT(문법)
-배열 선언하는 방법
+[배열 선언하는 방법](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/%EB%B0%B0%EC%97%B4%EC%9D%98%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8.swift)
 </br>
 </br>
 
