@@ -5,3 +5,7 @@
 </br>
 
 * <img src="https://user-images.githubusercontent.com/83942393/129191030-efaf8bb3-71a1-401a-b005-2b2e8289bb1f.png" width="20%" height="10%"></img> [DatePicker, Timer](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/func%20timer(_%20sender:%20UIDatePicker).swift) / [데이터 포맷 형식](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/daterformat.md)
+</br>
+
+* <img src="https://user-images.githubusercontent.com/83942393/129477235-563ed070-dde6-4704-acb8-b7795adfb5e8.png" width="15%" height="10%"></img> [PickerView]
+
