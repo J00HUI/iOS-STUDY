@@ -1,4 +1,6 @@
-var Nmae = "Ho-Jeong"
+일반 변수 선언
+
+var Name = "Ho-Jeong"
 var score = 100
 
 1) 변수 선언과 동시에 값을 입력한 배열을 만드는 방법
