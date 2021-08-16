@@ -6,7 +6,7 @@ for  iOS Study
 
 ## SWIFT(문법)
 [배열 선언하는 방법](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/%EB%B0%B0%EC%97%B4%EC%9D%98%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8.swift)   
-[for 루프](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/for%20roop.swift)   
+[for 루프](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/for%20roop.swift), [while 루프](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/while%20roop.md)   
 [익명 함수(Anonymous Fuction)](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/anonymouse%20function.md)
 </br>
 </br>
