@@ -9,6 +9,7 @@ for  iOS Study
 * [for 루프](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/for%20roop.swift), [while 루프](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/while%20roop.md)   
 * [익명 함수(Anonymous Fuction)](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/anonymouse%20function.md)
 * [함수의 구조](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/%ED%95%A8%EC%88%98%EC%9D%98%20%EA%B5%AC%EC%A1%B0.md)
+* [self란?](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/self.md)
 </br>
 </br>
 
