@@ -14,4 +14,8 @@
 </br>
 
 * <img src="https://user-images.githubusercontent.com/83942393/129708899-00d7f4a2-395d-4e12-b081-0ef9d9f1a947.png" width="15%" height="10%"></img> [Web View](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/webview.swift)
+</br>
+
+* <img src="https://user-images.githubusercontent.com/83942393/130564317-d8525a6d-b476-4a50-9881-f9f5276faa24.png" width="15%" height="10%"></img> [Page Control](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/pageControl.swift)
+</br>
 
