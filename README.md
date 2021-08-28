@@ -24,7 +24,7 @@ for  iOS Study
 
 ## Framework(Xcode)
 * [코코아 터치 클래스란?](https://github.com/ERIN56/iOS-STUDY/blob/master/Xcode/%EC%BD%94%EC%BD%94%EC%95%84%20%ED%84%B0%EC%B9%98%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%9E%80%3F.md) + Cocoa pods
-* XIB 파일이란?
+* [XIB 파일이란?](https://github.com/ERIN56/iOS-STUDY/blob/master/Xcode/XIB.md)
 </br>
 
 
