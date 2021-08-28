@@ -1,3 +1,5 @@
+// pickerview delegate 연결 해야 함.
+
 import UIKit
 
 class ViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataSource{//: 클래스명 -> 클래스 상속
