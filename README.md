@@ -26,7 +26,7 @@ for  iOS Study
 * [코코아 터치 클래스란?](https://github.com/ERIN56/iOS-STUDY/blob/master/Xcode/%EC%BD%94%EC%BD%94%EC%95%84%20%ED%84%B0%EC%B9%98%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%9E%80%3F.md) + Cocoa pods
 * [XIB 파일이란?](https://github.com/ERIN56/iOS-STUDY/blob/master/Xcode/XIB.md)
 * auto layout > 제약 조건 설정 창의 의미 : (First Item) = 비율(Multiplier) * (Second Item) + Constant
-* 스택 뷰란?
+* [스택 뷰란?](https://github.com/ERIN56/iOS-STUDY/blob/master/Xcode/%EC%8A%A4%ED%83%9D%EB%B7%B0%EB%9E%80%3F.md)
 </br>
 
 
