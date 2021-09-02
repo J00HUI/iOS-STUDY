@@ -19,7 +19,7 @@
 
 ---
 
-* <img src="https://user-images.githubusercontent.com/83942393/131209066-96eb1903-928a-4b8d-bb49-ef0ea158d949.png" width="15%" height="15%"></img> <img src="https://user-images.githubusercontent.com/83942393/131209071-de47b50f-e5c4-40fc-be05-d50f6526053a.png" width="15%" height="15%"></img> <img src="https://user-images.githubusercontent.com/83942393/131209072-772edd89-997a-4201-b817-e03b499c8e5f.png" width="15%" height="15%"></img> <img src="https://user-images.githubusercontent.com/83942393/131209074-618eea8c-8348-4cfd-bdd4-5924e73c8d95.png" width="15%" height="15%"></img> [Table](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/table.swift)
+* <img src="https://user-images.githubusercontent.com/83942393/131209066-96eb1903-928a-4b8d-bb49-ef0ea158d949.png" width="20%" height="20%"></img> <img src="https://user-images.githubusercontent.com/83942393/131209071-de47b50f-e5c4-40fc-be05-d50f6526053a.png" width="20%" height="20%"></img> <img src="https://user-images.githubusercontent.com/83942393/131209072-772edd89-997a-4201-b817-e03b499c8e5f.png" width="20%" height="20%"></img> <img src="https://user-images.githubusercontent.com/83942393/131209074-618eea8c-8348-4cfd-bdd4-5924e73c8d95.png" width="20%" height="20%"></img> [Table](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/table.swift)
 </br>
 
 ---
