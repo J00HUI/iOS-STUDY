@@ -25,16 +25,23 @@
 
 ---
 
-* <img src="https://user-images.githubusercontent.com/83942393/131803719-5ecc9b25-6132-4726-8410-4cebe747e035.png" width="17%" height="17%"></img> <img src="https://user-images.githubusercontent.com/83942393/131803728-450ac9fa-940c-421f-8d09-b3b6e178a3bf.png" width="17%" height="17%"></img> [Auto](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/Auto.swift) ` ` ` ` ` ` ` ` ` ` * [CameraPhotoLibarary (Camera, Video, Library)](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/cameraPhotoLibrary.swift)
+* <img src="https://user-images.githubusercontent.com/83942393/131803719-5ecc9b25-6132-4726-8410-4cebe747e035.png" width="19%" height="19%"></img> <img src="https://user-images.githubusercontent.com/83942393/131803728-450ac9fa-940c-421f-8d09-b3b6e178a3bf.png" width="19%" height="19%"></img> [Auto](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/Auto.swift) ` ` ` ` ` ` ` ` ` ` * [CameraPhotoLibarary (Camera, Video, Library)](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/cameraPhotoLibrary.swift)
 </br>
 
 ---
 
-* <img src="https://user-images.githubusercontent.com/83942393/132622192-29d74c06-46b5-4998-b297-e2345992398d.png" width="17%" height="17%"></img> [MoviePlayer](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/moviePlayer.swift) ` ` ` ` ` ` <img src="https://user-images.githubusercontent.com/83942393/132622350-1221897f-a822-40ad-8993-b2b08fb274a0.png" width="17%" height="17%"></img> [DrawGraphics](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/drawGraphics.swift)
-
+* <img src="https://user-images.githubusercontent.com/83942393/132622192-29d74c06-46b5-4998-b297-e2345992398d.png" width="15%" height="10%"></img> [MoviePlayer](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/moviePlayer.swift)
 </br>
 
 ---
+
+* <img src="https://user-images.githubusercontent.com/83942393/132633228-acfadd60-3cc8-4c15-9fdb-dd2281889bfd.png" width="15%" height="10%"></img> [DrawGraphics](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/drawGraphics.swift) ` ` <img src="https://user-images.githubusercontent.com/83942393/132632528-32647e6f-a334-4d3b-b730-185607eee03c.png" width="22%" height="22%"></img> [TapTouch](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/taptouch.swift) ` ` <img src="https://user-images.githubusercontent.com/83942393/132632438-b6cd4e71-381c-4c31-a09e-eee11e1cd352.png" width="15%" height="10%"></img> [Sketch](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8%EB%A1%9C%20%EC%95%84%EC%9D%B4%ED%8F%B0%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Codes/sketch.swift)
+</br>
+
+---
+
+
+
 
 
 
