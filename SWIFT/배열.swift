@@ -26,6 +26,8 @@ score.append(80)
 ...
 
 1)처럼 배열을 만들어도 나중에 2)와 같이 append 메서드로 추가할 수 있습니다.
+
+
 배열을 선언했으면 이제 배열 값을 접근하는 방법을 알아보겠습니다. 접근한다는 의미는 배열 값을 읽어오거나 변경한다는 의미입니다.
 
 let someoneNmae = name[0]
@@ -34,3 +36,22 @@ name[1] = "홍길동"
 let someScore = score[2]
 score[3] = 60
 
+
++)
+var names: [String] = ["Kang", "Hong", "Kim"]
+
+print(names.count)                              // 3
+print(names[2])                                 // "Kim"
+
+names.append("Lee") 
+names.append(contentsOf: ["Noh", "Min"]) 
+print(names)                                    // ["Kang", "Hong", "Kim", "Lee", "Noh", "Min"]
+
+names.insert("Choi", at: 2) 
+print(names)                                    // ["Kang", "Hong", "Choi", "Kim", "Lee", "Noh", "Min"]
+
+print(names.first!, names.last!)                // "Kang", "Min"
+
+let firstItem: String = names.removeFirst() 
+print(firstItem)                                // "Kang"
+print(names)                                    // ["Hong", "Choi", "Kim", "Lee", "Noh", "Min"]
