@@ -17,3 +17,32 @@ while i<10 {
   i = i + 1
 }
 ```
+<br>
+
+ex2)
+```
+var names: [String] = ["Lee", "Choi", "Kang", "Kim"]
+
+while names.isEmpty == false {
+    print("Good bye \(names.removeLast())")
+}
+```
+// Good bye Kim   
+// Good bye Kang    
+// Good bye Choi    
+// Good bye Lee    
+<br>
+<br>
+
+repeat
+```
+names = ["Lee", "Choi", "Kang", "Kim"]
+
+repeat {
+    print("Good bye \(names.removeFirst())")
+} while names.isEmpty == false
+```
+// Good bye Lee   
+// Good bye Choi   
+// Good bye Kang   
+// Good bye Kim    
