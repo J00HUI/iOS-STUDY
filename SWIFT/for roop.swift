@@ -18,3 +18,35 @@ for i in 0...9 {
 for i in 0..<10 {
   print(i)
 }
+
+
++)
+변수 사용 X
+
+var result: Int = 1
+for _ in 1...3 {
+    result *= 10
+}
+
+print("10의 3제곱은 \(result) 입니다.")                  // 10의 3제곱은 1000 입니다.
+
+
+String
+
+let helloSwift: String = "Hello Swift!"
+for char in helloSwift {
+    print(char)
+}
+
+// H
+// e
+// l
+// l
+// o
+ 
+// S
+// w
+// i
+// f
+// t
+// !
