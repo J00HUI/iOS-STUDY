@@ -6,3 +6,6 @@
 </br>
 
 3. <img src="https://user-images.githubusercontent.com/83942393/134769546-70934215-c3c1-45b9-949b-029180a95b84.png" width="20%"></img> [Slider](https://github.com/ERIN56/iOS-STUDY/blob/master/서울여대%20모바일앱프로그래밍%20수업/slider.swift)
+</br>
+
+4. <img src="https://user-images.githubusercontent.com/83942393/134770406-76fd3c25-d6b9-4941-b465-c105ab2b4a25.png" width="25%"></img> Semented Control
