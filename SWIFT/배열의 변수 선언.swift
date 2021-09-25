@@ -14,6 +14,9 @@ var score = [100, 80, 95, 98, 86]
 var name = [String]()
 var score = [Int]()
 
+var name: [String] = [String]()
+var score: [Int] = [Int]()
+
 name.append("슈퍼맨")
 name.append("배트맨")
 ...
