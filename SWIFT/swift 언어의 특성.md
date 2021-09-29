@@ -44,7 +44,87 @@
   * print("이름: \(person2.name) 체중: \(person2.weight) 키: \(person2.height)")
   * person2.weight = 100 
 
-* Tuple Quiz 1
+* [Tuple Quiz](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/Tuplequiz.swift)
+</br>
 
+## Collection Type
+
+* Array(배열)
+  * 같은 타입의 데이터를 일렬로 순서대로 저장
+  * Swift의 배열은 C 또는 Java의 배열과 달리 연결리스트(Linked List) 구조로 되어 있음
+  * 인덱스를 통해 접근하며 0부터 시작
+* [Dictionary](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/dictionary.swift) 
+  * 요소들이 순서 없이 Key와 Value의 쌍을 구성됨
+  * Key 는 Dictionary 안에서 유일해야 함
+  * Value는 유일하지 않아도 상관 없음
+  * Value는 Key를 통해서만 접근 가능
+* [Set(집합)](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/set.swift)
+  * 같은 타입의 자료를 순서 없이 하나의 묶음을 저장
+  * 각 값은 유일한 값을 가짐
+</br>
+
+## [Enumeration(열거형)](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/enumeration.swift)
+
+* 연관된 항목을 묶어서 표현할 수 있는 타입
+  * 프로그래먹 정의해주 값 이외에는 추가/수정 불가
+```
+enum School {    
+  case elementary     
+  case middle   
+  case high   
+  case university    
+} 
+```
+</br>
+
+## 흐름 제어(Flow Control) : If
+* if {} else {}
+  * 소괄호 ()는 생략 가능하나 중괄호 {}는 생략 불가
+  * if 구문은 조건의 값이 반드시 Bool 타입이어야 함
+
+```
+let first:Int = 5
+let second: Int = 7
+
+if first > second {
+  print("first > second")
+}
+else if first < second {
+  print("first < second")
+else {
+  print("first == second")
+}
+```
+</br>
+
+## 흐름 제어(Flow Control) : Switch
+
+* 선언된 변수의 값에 따라 해당 case 문장이 실행됨
+  * case 내부의 코드를 모두 실행하면 break 없이 종료됨
+  * case를 연속해 실행하려면 fallthrough 키워드 사용
+
+```
+let intValue = 8
+
+switch intValue {
+  case 0:
+      print("value == zero")
+  case 1...10:
+      print("value == 1~10")
+      fallthrough
+  case Int.min ..< 0, 101 ..< Int.max:
+      print("Value < 0 or Value > 100")
+  default:
+      print("10 < Value <= 100")
+ }
+ ```
+ </br>
+ 
+ ## 흐름 제어(Flow Control) : wile card 식별자
+ 
+
+어
+어ㄴ
+어ㄴㄷ
 
 > 출처 - 서울여자대학교 디지털미디어학과 모바일앱 프로그래밍 수업
