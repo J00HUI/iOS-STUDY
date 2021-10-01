@@ -17,7 +17,7 @@ for  iOS Study
 * [do-try-catch 문이란?](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/do-try-catch%EB%AC%B8%EC%9D%B4%EB%9E%80%3F.md)
 * [import 는 왜 있나요?](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/import%EB%8A%94%20%EC%99%9C%EC%9E%88%EB%82%98%EC%9A%94%3F.md)
 * [let, var, func, class](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/let%2C%20var%2C%20func%2C%20class.md)
-* swift 언어의 특성
+* [swift 언어의 특성, Basic Type, Tuple, Collection Type(array, dictionary, set), Enumeration, if, switch, wild card 식별자, 함수, 옵셔널, class, struct, closure](https://github.com/ERIN56/iOS-STUDY/blob/master/SWIFT/swift%20%EC%96%B8%EC%96%B4%EC%9D%98%20%ED%8A%B9%EC%84%B1.md)
 </br>
 </br>
 
