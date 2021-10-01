@@ -121,10 +121,327 @@ switch intValue {
  </br>
  
  ## 흐름 제어(Flow Control) : wile card 식별자
- 
+```
+typealias NumberName = (number: Int, name: String)
 
-어
-어ㄴ
-어ㄴㄷ
+let tupleValue: NumberName = (23, "Kim")
+
+switch tupleValue {
+case(23, "Kim"):
+    print("정확히 맞았습니다.")
+case(_, "Kim"):
+    print("이름만 맞았습니다. 숫자는 \(tupleValue.number) 입니다")
+case(23, _):
+    print("숫자만 맞았습니다. 이름은 \(tupleValue.name) 입니다.")
+default:
+    print("정확히 입력해 주세요")
+}
+```
+</br>
+
+## 함수
+```
+func 함수이름 (매개변수, ...) -> 반환 타입 {
+    실행 구문
+    return 반환 값
+}
+```
+
+```
+func addTwoNumbers(first: Int, second: Int) -> Int {
+  return first + second
+}
+
+print(addTwoNumbers(first: 12, second: 3)         // 15
+
+func sayHello(myName: String, yourName: String) -> String {
+    return "Hello \(yourName)! I'm \(myName)"
+}
+
+print(sayHello(myName: "갑돌이", yourName: "갑순이))
+
+```
+
+```
+func 함수이름 (전달인자레이블 매개변수이름: 매개변수타입, ...) -> 반환타입 {
+    실행 구문
+    return 반환 값
+}
+```
+
+```
+func sayHello2(from myName: String, to yourName: String) -> String {
+    return "Hello \(yourName)! I'm \(myName)"
+}
+print(sayHello2(from: "갑돌이", to: "갑순이))
+
+func sayHello3(_ myName:String, _ yourName: String) -> String {
+    return "Hello \(yourName)! I'm \(myName)"
+}
+print(sayHello3("갑돌이", "갑순이"))
+```
+</br>
+
+## 전달인자로서의 함수
+```
+func addVAT(source: Double) -> Double {
+    return source * 1.1
+}
+
+var additional: (Double) -> Double
+additional = addVAT
+
+let todayTransaction = 12.7
+let todayPrice = additional(todayTransaction)
+print(todayPrice)
+
+func finalPrice(source: Double, process: (Double) -> Double) -> Double {
+    let price = process(source)
+    return price
+}
+
+let priceTomorrow = finalPrice(source: 350.0, process: addVAT)
+print(priceTomorrow)              // 385.00000000000006
+```
+</br>
+
+## 함수를 반환하는 함수
+```
+func makeAdder(x: Int) -> (Int) -> Int {
+  func adder(a: Int) -> Int {
+      return a + x
+  }
+  return adder
+}
+
+let add5 = makeAdder(x: 5)
+let add10 = makeAdder(x: 10)
+
+print(add5(2))
+print(add10(2))
+```
+</br>
+
+## 옵셔널: Optional
+- 안전성(safety)을 문법적으로 담보하는 기능
+  - 변수나 상수에 값이 반드시 있지 않을 수도 있음
+  - 변수 또는 상수의 값이 nil일 수도 있다
+  - 옵셔널과 옵셔널이 아닌 값은 철저히 다른 타입으로 인식함
+  - nil을 할당하고자 할 경우 반드시 옵셔널 변수/상수 이어야 함
+  - 타입 뒤에 '?' 을 붙여 옵셔널 변수임을 선언함
+
+```
+var myName: String = "Kang"
+print(myName)
+my Name = nil       // 오류 
+
+var yourName: String? = "Kim"
+print(yourName)     // 출력 값 : Optional("Kim")
+
+yourName = nil
+print(yourName)
+```
+
+## Forced Unwrapping: 옵셔널 강제추출
+- 옵셔널 값을 추출하는 간단하지만 위험한 방법
+  - Runtime Error로 프로그램이 종료될 수 있음
+  - 옵셔널 값의 뒤에 '!'를 붙이면 옵셔널 값을 강제로 추출함
+  - nil 값이 강제 추출되는 경우 runtime error 발생
+
+```
+var personA: String?
+var personB: String
+
+personA = "Kang"
+personB = personA         // error
+personB = personA!        // forced unwrapping
+
+personA = nil
+personB = personA!        // error
+
+if personA != nil {
+    print("The name is \(personA)")
+} else {
+    print("The name is nil")
+}
+```
+
+## Optional Binding
+- 옵셔널 변수의 값이 nil인지 확인하고 강제로 추출하는 방식은 기존의 언어에서와 유사함
+  - 옵셔널의 의미도 사라짐 (권유 x)
+- 옵셔널 변수에 값이 있는지 확인할 때 사용함
+  - 값이 있다면 옵셔널에서 추출된 값을 일정 블록 안에서 상수나 변수에 할당하여 옵셔널이 아닌 형태로 사용
+
+```
+var univName: String?
+var collegeName: String = ""
+univName = "SWU"
+
+if let name = univName {
+    collegeName = name
+}
+
+print(collegeName)
+```
+</br>
+
+## class
+```
+class Car{
+    var maker: String
+    var year: Int
+    var mileage: Double
+
+    init(maker: String, year: Int, mileage: Double){
+        self.maker = maker
+        self.year = year
+        self.mileage = mileage
+    }
+
+    func getMileage() -> Double {
+        return mileage
+    }
+}
+
+let myCar = Car(maker: "Hyundai", year: 2017, mileage: 3000)
+let myMileage = myCar.getMileage()
+
+print("Maker: \(myCar.maker), Year: \(myCar.year), Mileage: \(myCar.mileage)")
+print(myMileage)
+```
+</br>
+
+## struct
+```
+struc BasicInfo {
+    var name: String
+    var age: Int
+    
+    func howOld() -> Int {
+        return age
+    }
+}
+
+var hong: BasicInfo = BasicInfo(name: "Hong", age: 24)
+print(hong.howOld())
+hong.age = 26
+hong.name = "kildong"
+print(hong.howOld())
+
+let lee: BasicInfo = BasicInfo(name: "Lee", age: 35)
+lee.age = 45              // error (lee가 var로 선언되어 있어야 함)
+```
+</br>
+
+## Class vs Struct
+- 공통점
+  - 값 저장을 위해 property(변수)를 정의할 수 있음
+  - 기능 수행을 위해 method(함수)를 정의할 수 있음
+  - 초기화될 떄 상태 저장을 위해 init()을 정의할 수 있음
+  - 특정 기능을 준수하기 위해 특정 프로토콜을 준수할 수 있음
+
+- 차이점
+  - 구조체는 상속할 수 없음
+  - 타입캐스팅은 클래스의 인스턴스에만 허용
+  - 디이니셜라이저는 클래스의 인스턴스에만 활용
+  - Reference Counting은 클래스의 인스턴스에만 적용
+</br>
+
+## struct and class 
+- struct은 값을 복사해 독립적인 기억장소를 가짐
+
+```
+struct BasicInfo {
+    var name: String
+    var age: Int
+}
+
+var hong: BasicInfo = BasicInfo(name: "Hong", age: 24)
+hong.age = 26
+
+var lee: BasicInfo = hong                 // 복사 할당
+
+print("Hong's age: \(hong.age)")          //Hong's age: 26
+print("Lee's age: \(lee.age)")            //Lee's age: 26
+
+lee.age = 32
+
+print("Hong's age: \(hong.age)")          //Hong's age: 26
+print("Lee's age: \(lee.age)")            //Lee's age: 32
+```
+</br>
+
+## struct and class
+- class 는 기억장소를 참조해 연관된 기억장소를 가짐
+
+```
+class Person{
+    var name: String
+    var age: Int
+    init(name: String, age: Int){
+        self.name = name
+        self.age = age
+    }
+}
+
+var kang: Person = Person(name: "Kang", age: 27)
+kang.age = 27
+
+var park: Person = kang
+
+print("Kang's age: \(kang.age)")          //Kang's age: 27
+print("Park's age: \(park.age)")          //Park's age: 27
+
+park.age = 33
+
+print("Kang's age: \(kang.age)")          //Kang's age: 33
+print("Park's age: \(park.age)")          //Park's age: 33
+```
+</br>
+
+## Closure(클로저)
+- 일정 기능을 하는 코드를 하나의 블록으로 모아놓은 것
+- 기본 형식
+```
+{ (매개변수들) -> 반환 타입 in
+    실행 코드
+}
+```
+
+- 클로저의 축약
+  - 매개변수와 반환 값의 타입을 유추할 수 있으므로 매개변수와 반환 값의 타입을 생략할 수 있음
+  - 단 한 줄의 표현만 한다면 이를 반환 값으로 취급해서 return 구문을 생략할 수 있음
+  - 축약된 전달인자 이름을 사용할 수 있음 ($0, $1)
+</br>
+
+## Closure
+```
+func addVAT(source: Double) -> Double {
+    return source * 1.1
+}
+
+var price1 = addVAT(source: 300.0)
+
+let addVATClosure1 = {
+    (source:Double) -> Double in
+    return source * 1.1
+}
+
+price1 = addVATClosure1(300.0)
+
+let addVATClosure2 = {      // 매개변수 타입, 반환 타입 생략
+    source in
+    return source * 1.1
+}
+
+let addVATClosure3 = {      // return 구문 생략
+    source in
+    source * 1.1
+}
+
+let addVATClosure4 = { $0 * 1.1 }   // 축약된 전달인자 이름 사용 ($0, $1)
+```
+</br>
+
 
 > 출처 - 서울여자대학교 디지털미디어학과 모바일앱 프로그래밍 수업
