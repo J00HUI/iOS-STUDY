@@ -14,4 +14,4 @@
 5. <img src="https://user-images.githubusercontent.com/83942393/134770504-c20c7ee7-2ede-4e95-874c-f8e97f33a844.png" width="25%"></img> [TextField](https://github.com/ERIN56/iOS-STUDY/blob/master/서울여대%20모바일앱프로그래밍%20수업/textfield.md)
 </br>
 
-6. 윤년테스트
+6. [윤년테스트 (Include Unit Tests, 함수나 class 또는 struct의 기능을 테스트)](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/%EC%9C%A4%EB%85%84%ED%85%8C%EC%8A%A4%ED%8A%B8.swift)
