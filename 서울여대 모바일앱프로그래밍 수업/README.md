@@ -30,3 +30,21 @@
 <img src="https://user-images.githubusercontent.com/83942393/136011547-0ee976e7-b4ba-4bc5-a242-9b783887b531.png" width="50%"></img>
 <img src="https://user-images.githubusercontent.com/83942393/136011552-f48b4fb6-db23-4b6e-872a-561f038b679f.png" width="50%"></img>
 
+### W06 - UIView
+- [Segue, Navigation, 앱에 아이콘 추가, Git&Github.pdf](https://github.com/ERIN56/iOS-STUDY/files/7285496/W06-Views.pdf) </br>
+
+<img src="https://user-images.githubusercontent.com/83942393/136016394-a2fea313-d8ec-4382-adfc-f5d09253ca52.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/83942393/136016409-8081cda0-2e16-4ae9-b33a-4606b4312903.png" width="40%"></img>
+<img src="https://user-images.githubusercontent.com/83942393/136016416-982577e9-1874-4cc5-b147-3a857b3be805.png" width="40%"></img>
+<img src="https://user-images.githubusercontent.com/83942393/136016431-f2642886-1e4c-4b02-93be-aec2906a898d.png" width="20%"></img>
+
+### W07 - Auto Layout
+- [AutoLayout.pdf](https://github.com/ERIN56/iOS-STUDY/files/7285521/W07-AutoLayout.pdf)
+
+### W08 - Table View
+- [TableView.pdf](https://github.com/ERIN56/iOS-STUDY/files/7285554/W08-TableView.pdf)</br>
+<img src="https://user-images.githubusercontent.com/83942393/136018019-17ff4401-30c8-45eb-acc4-20e75d916e12.png" width="50%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/136018031-26766d0b-eb3e-4df3-b11f-fe0abe80f1fd.png" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/83942393/136018056-2470784a-711c-4328-99cf-9530861b37da.png" width="60%"></img>
+
+### W09 - Core Data
