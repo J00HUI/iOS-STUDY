@@ -48,5 +48,6 @@
 <img src="https://user-images.githubusercontent.com/83942393/136018056-2470784a-711c-4328-99cf-9530861b37da.png" width="60%"></img>
 
 ### W09 - Core Data
-- [CoreData.pdf](https://github.com/ERIN56/iOS-STUDY/files/7293639/W09-CoreData.pdf), [Source Code]()</br>
+- [CoreData.pdf](https://github.com/ERIN56/iOS-STUDY/files/7293639/W09-CoreData.pdf)
+- [Source Code](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/coredata.swift) </br>
 <img src="https://user-images.githubusercontent.com/83942393/136201465-ad7f8baf-1a6c-4401-9b4f-754c93a4f91b.png" width="65%"></img>
