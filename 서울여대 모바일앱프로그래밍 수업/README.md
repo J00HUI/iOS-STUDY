@@ -40,6 +40,11 @@
 
 ### W07 - Auto Layout
 - [AutoLayout.pdf](https://github.com/ERIN56/iOS-STUDY/files/7285521/W07-AutoLayout.pdf)
+  - **<목적>**
+  - auto layout의 필요성을 이해한다.
+  - xcode 에서 제공하는 auto layout의 기능을 이해한다.
+    - auto layout은 constraint 기반으로 작동한다.
+  - auto layout 의 기능을 활용해 앱에서 사용하는 다양한 뷰와 콘트롤 들을 디자인한다. 
 
 ### W08 - Table View
 - [TableView.pdf](https://github.com/ERIN56/iOS-STUDY/files/7285554/W08-TableView.pdf)</br>
@@ -49,5 +54,18 @@
 
 ### W09 - Core Data
 - [CoreData.pdf](https://github.com/ERIN56/iOS-STUDY/files/7293639/W09-CoreData.pdf)
+  - **<목차>**
+  - SQLite
+  - Core Data
+  - Core Data 스택
+  - Xcode 모델링 도구
+  - 생성/삭제/조회 연산 구현
+    - Create
+    - Delete
+    - Read
 - [Source Code](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/coredata.swift) </br>
 <img src="https://user-images.githubusercontent.com/83942393/136201465-ad7f8baf-1a6c-4401-9b4f-754c93a4f91b.png" width="65%"></img>
+
+### W10 - Server Login(Local Host)
+<img src="https://user-images.githubusercontent.com/83942393/136760512-ee2a9281-aadc-4f05-b623-39ad44245319.png" width="70%"></img>
+
