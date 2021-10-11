@@ -1,4 +1,5 @@
 # W10 - Server Login (Local Host)
+</br>
 
 ## 강의 순서
 - 서버 로그인 기본 개념
@@ -10,6 +11,7 @@
 - 클라이언트 환경 개발
   - 회원 가입
   - 로그인   
+</br>
 
 ## 서버 로그인 기본 개념
 - 특정 서버에 접속해서 자신의 Identity 인증
@@ -20,7 +22,8 @@
   - 계정 ID와 Password를 설정
   - 서버에 개인 소개 정보 저장
 
-<img src="https://user-images.githubusercontent.com/83942393/136761891-0d6bd713-1ac1-4da8-8342-9809a5114b10.png" width="30%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/136761891-0d6bd713-1ac1-4da8-8342-9809a5114b10.png" width="25%"></img></br>
+</br>
 
 ## 클라이언트와 서버의 통신
 - 인터넷에 연결된 클라이언트
@@ -31,7 +34,8 @@
   - 웹 서버가 저장중인 파일을 직접 수신
   - DB에 저장된 자료를 웹 프로그램을 이용해 특정 조건에 맞는 자료를 수신
 
-<img src="https://user-images.githubusercontent.com/83942393/136762200-8c214b21-0bc6-44b8-b3e8-89131ebb43ca.png" width="40%"></img>
+<img src="https://user-images.githubusercontent.com/83942393/136762200-8c214b21-0bc6-44b8-b3e8-89131ebb43ca.png" width="30%"></img></br>
+</br>
 
 ## 서비스들
 - Amazon Web service(AWS) EC2 : AMazon에서 개발한 클라우드 컴퓨팅 서비스 플랫폼
@@ -39,11 +43,12 @@
 - Django : 웹사이트에서 Node.js 등을 활용하여 DB를 쉽게 사용할 수 있는 Web Framework
 - MongoDB
 - MariaDB
+</br>
 
 ## APM(Apache, PHP, MySql)
 - Apache는 웹서버, PHP는 웹 프로그램, MySql은 DB
 
-![image](https://user-images.githubusercontent.com/83942393/136762777-b9d3090b-67f2-47bb-809f-011e6491b2e2.png)
+<img src="https://user-images.githubusercontent.com/83942393/136762777-b9d3090b-67f2-47bb-809f-011e6491b2e2.png" width="60%"></img></br>
 
 1. 클라이언트가 웹 브라우저에 URL을 입력해 원하는 정보를 서버에 요청하고, 서버의 Apache 프로그램은 접속을 승인
 2. Apache는 DB에 저장된 데이터를 가져오기 위해 사용자가 지정한 PHP를 실행
@@ -51,22 +56,26 @@
 4. MySQL은 DB에 저장된 데이터를 가져와 PHP에 돌려줌
 5. PHP는 DB에서 가져온 데이터와 PHP 코드를 모두 HTML 형태로 변경한 후, 해당 HTML 파일을 Apache 에 전달
 6. Apache는 완성된 HTML 파일을 클라이언트 측의 웹 브라우저에 전달
+</br>
 
 ## Apache
 - Apache Web Server 는 Apache HTTP Server 라고도 함
   - 클라이언트 사용자의 웹 요청을 처리하는 서버 프로그램
 
-![image](https://user-images.githubusercontent.com/83942393/136763564-90f88a3a-2e35-4b94-ac86-758e393fe1dd.png)
+<img src="https://user-images.githubusercontent.com/83942393/136763564-90f88a3a-2e35-4b94-ac86-758e393fe1dd.png" width="50%"></img></br>
+</br>
 
 ## PHP(PHP Hypertext Preprocessor)
 - 웹에서 사용하기 위해 웹 서버에서 실행되는 스크립트 언어
   - 1995년 Rasmus Lerdorf and others
   - Open Source Project
   - Personal Home Page
-    - PHP Hypertext Preprocessor  
+    - PHP Hypertext Preprocessor 
+</br>
 
-![image](https://user-images.githubusercontent.com/83942393/136763752-0547c60a-2931-4934-a192-00a2ecfaafcc.png)
-![image](https://user-images.githubusercontent.com/83942393/136763777-936edaf6-b793-4692-a55d-0f2cb9b64ef0.png)
+<img src="https://user-images.githubusercontent.com/83942393/136763752-0547c60a-2931-4934-a192-00a2ecfaafcc.png" width="15%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/136763777-936edaf6-b793-4692-a55d-0f2cb9b64ef0.png" width="40%"></img></br>
+</br>
 
 ## MySQL
 - 오픈소스 관계형 데이터베이스 관리 시스템(DBMS)
@@ -75,36 +84,48 @@
   - LAMP/WAMP/MAMP 플랫폼에서 작동됨
     - Apache - MySQL - PHP/Perl/Python
 
-![image](https://user-images.githubusercontent.com/83942393/136763990-08cd2a95-f5d3-4a14-81a4-af4af3783ae4.png)
+<img src="https://user-images.githubusercontent.com/83942393/136763990-08cd2a95-f5d3-4a14-81a4-af4af3783ae4.png" width="50%"></img></br>
+</br>
 
 ## 만들고자 하는 Login 기능
-<img width="717" alt="스크린샷 2021-10-11 오후 6 09 56" src="https://user-images.githubusercontent.com/83942393/136764302-c56c6c9d-8f5e-49a9-a52b-2e9d3091516e.png">
+
+<img src="https://user-images.githubusercontent.com/83942393/136764302-c56c6c9d-8f5e-49a9-a52b-2e9d3091516e.png" width="60%"></img></br>
+</br>
 
 ## APM 설치
 - Linux에서 AMP 설치
 - Windows에서 AMP 설치
 - MacOS에서 AMP 설치 
 
-![image](https://user-images.githubusercontent.com/83942393/136764554-c1847949-1245-41a1-8967-f45569271c82.png)
+<img src="https://user-images.githubusercontent.com/83942393/136764554-c1847949-1245-41a1-8967-f45569271c82.png" width="50%"></img></br>
+</br>
 
 ## MAMP 사용
 - '응용 프로그램'에서 MAMP 실행 후 'start server' 누름
 
+<img src="https://user-images.githubusercontent.com/83942393/136771280-65423a5c-4eca-459f-b936-a842d6c7e3ba.png" width="50%"></img></br>
+</br>
+
 ## 서버 실행
 - Tools - phpMyAdmin 실행
-![image](https://user-images.githubusercontent.com/83942393/136764741-cef3be25-cd5f-4e47-9ca9-9c4bd13de945.png)
+
+<img src="https://user-images.githubusercontent.com/83942393/136764741-cef3be25-cd5f-4e47-9ca9-9c4bd13de945.png" width="50%"></img></br>
+</br>
 
 ## 데이터 베이스 생성
 - Databases 탭 선택
 - 데이터 베이스 이름을 iphone으로 생성
 
-![image](https://user-images.githubusercontent.com/83942393/136764836-7b08cc84-3a20-4e49-8e60-b3db3e64881a.png)
+<img src="https://user-images.githubusercontent.com/83942393/136764836-7b08cc84-3a20-4e49-8e60-b3db3e64881a.png" width="60%"></img></br>
+</br>
 
 ## 테이블 생성
 - 데이터 베이스 iphone 에 테이블 생성
   - user 테이블에 3개의 field 생성 -> Go
   - 이름은 프로그래밍에서 대소문자 구분이 없음
-![image](https://user-images.githubusercontent.com/83942393/136764957-c27b8689-7a9c-490e-9ac3-a6d4ef288309.png)
+
+<img src="https://user-images.githubusercontent.com/83942393/136764957-c27b8689-7a9c-490e-9ac3-a6d4ef288309.png" width="70%"></img></br>
+</br>
 
 ## 테이블 내 Field 정의
 - user 테이블에 세 개의 field 정의
@@ -113,10 +134,11 @@
   - passwd는 40 바이트 varchar
   - name 은 10 바이트 varchar
 
-![image](https://user-images.githubusercontent.com/83942393/136765200-69815395-9dc4-43bf-8916-d842785abb45.png)
-![image](https://user-images.githubusercontent.com/83942393/136765213-57d90491-9637-466c-9630-3f7c90dcb90a.png)
-![image](https://user-images.githubusercontent.com/83942393/136765224-58b997ca-acfd-4eab-84a0-57540de5fb91.png)
-![image](https://user-images.githubusercontent.com/83942393/136765233-f3d904b4-42c3-428d-8afc-c14a7ce50656.png)
+<img src="https://user-images.githubusercontent.com/83942393/136765200-69815395-9dc4-43bf-8916-d842785abb45.png" width="60%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/136765213-57d90491-9637-466c-9630-3f7c90dcb90a.png" width="70%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/136765224-58b997ca-acfd-4eab-84a0-57540de5fb91.png" width="30%"></img></br>
+<img src="https://user-images.githubusercontent.com/83942393/136765233-f3d904b4-42c3-428d-8afc-c14a7ce50656.png" width="10%"></img></br>
+</br>
 
 ## UTF-8 Encoding
 - Uniform Transformation Format
@@ -130,62 +152,74 @@
   - 바이트 단위 문자열 검색 알고리즘을 그대로 사용
   - UTF-8은 모든 유니코드 문자를 표현
   - 대부분의 라틴 알파벳 문자는 적어도 2바이트를 사용하며, 한중일 문자들과 표의 문자들은 적어도 2~3 바이트를 사용
+</br>
 
 ## 생성된 테이블 확인
 - iphone 데이터베이스에 user 테이블 생성
 - user 테이블에 세 개의 field 생성
   - userid, passwd, name 
   
-![image](https://user-images.githubusercontent.com/83942393/136765789-279d9488-2aa2-43c7-95f3-6c89011d1056.png)
+<img src="https://user-images.githubusercontent.com/83942393/136765789-279d9488-2aa2-43c7-95f3-6c89011d1056.png" width="60%"></img></br>
+</br>
 
 ## 프로젝트 생성
 - 'ServerLogin' 프로젝트 생성
-![image](https://user-images.githubusercontent.com/83942393/136765824-c641b25d-6901-468f-9536-60ad4aa24cee.png)
 
-프로젝트 과정 중략
+<img src="https://user-images.githubusercontent.com/83942393/136765824-c641b25d-6901-468f-9536-60ad4aa24cee.png" width="50%"></img></br>
+
+**(...)**</br>
+**프로젝트 과정 중략**</br>
+</br>
 
 ## 인터넷 서버에서 파일의 접근 (URL)
 - http://www.swu.ac.kr/www/goala.html
   - 웹 서버(www.swu.ac.kr)의 root는 www.swu.ac.kr/
   - goala.html 파일은 www 디렉토리에 저장되어 있음
 
-![image](https://user-images.githubusercontent.com/83942393/136766113-145a57e2-dbdd-4e52-a246-0f641448d08e.png)
+<img src="https://user-images.githubusercontent.com/83942393/136766113-145a57e2-dbdd-4e52-a246-0f641448d08e.png" width="60%"></img></br>
+</br>
 
-### RESTful
+## RESTful
 - https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=iOS+Swift
 
-![image](https://user-images.githubusercontent.com/83942393/136766179-df866375-594e-4ce9-820a-c874b056c32d.png)
+<img src="https://user-images.githubusercontent.com/83942393/136766179-df866375-594e-4ce9-820a-c874b056c32d.png" width="60%"></img></br>
+</br>
 
 - REpresentational State Transfer
   - a set of simple rules for how to organize and transmit information on the Internet
 - 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식이다.
   - 리소스의 구조 자체가 URL 인 표현식
+</br>
 
-![image](https://user-images.githubusercontent.com/83942393/136766387-f599bee0-e615-4023-b19a-d7d39e8daf4e.png)
+<img src="https://user-images.githubusercontent.com/83942393/136766387-f599bee0-e615-4023-b19a-d7d39e8daf4e.png" width="60%"></img></br>
 
-(프로젝트 과정 중략)
+**(...)**</br>
+**프로젝트 과정 중략**</br>
+</br>
 
 ## 자료 전송 관련 객체
 - URLRequest: HTTP 요청 관련 정보를 저장
 - URLSession: 각 request별 자료 전달을 위한 session 설정
 - URLSessionTask: 요청을 실행하여 자료 전송 작업 수행
 
-![image](https://user-images.githubusercontent.com/83942393/136766511-bd89804c-b04c-4bd1-bcaf-40e1cbaf094a.png)
-
-(프로젝트 진행 과정 중략)
+<img src="https://user-images.githubusercontent.com/83942393/136766511-bd89804c-b04c-4bd1-bcaf-40e1cbaf094a.png" width="60%"></img></br>
+</br>
 
 ## insertUser.php 파일 저장
 - 응용 프로그램 디렉터리에서  MAMP - htdocs-login 디렉터리
   - login 디렉터리는 미리 생성해야 함
   - insertUser.php 파일 저장
 
-(프로젝트 진행 과정 중략)
+<img src="https://user-images.githubusercontent.com/83942393/136772316-3a1944aa-7d8c-4a7e-ade6-2940f39013e7.png" width="80%"></img></br>
+</br>
 
 ## Database 저장 상태 확인
 - SQL 탭 선택 후 실행
   - select * from user where 100 -> 입력 후 Go
 - 비밀번호의 경우 text 입력 값을 그대로 보여줌 -> md5 요망
-![image](https://user-images.githubusercontent.com/83942393/136766816-ccfec3d1-14ea-4330-99b0-b270839f9e96.png)
+
+<img src="https://user-images.githubusercontent.com/83942393/136766816-ccfec3d1-14ea-4330-99b0-b270839f9e96.png" width="50%"></img></br>
+</br>
 
 ## MD5
 - Message Digest Algorithm 5
@@ -196,12 +230,12 @@
   - 현재 MD5를 보안관련 용도로 쓰는 것은 권장하지 않음
 - MD6
   - Ronald Rivest 등의 연구자들이 2008년에 제안
+</br>
 
 ## md5를 이용한 Password 저장 
 
-<img width="717" alt="스크린샷 2021-10-11 오후 6 29 13" src="https://user-images.githubusercontent.com/83942393/136767265-2163c052-0d5f-4b7a-a444-7504a90edc36.png">
-
-(프로젝트 진행 과정 중략)
+<img src="https://user-images.githubusercontent.com/83942393/136767265-2163c052-0d5f-4b7a-a444-7504a90edc36.png" width="70%"></img></br>
+</br>
 
 ## HTTP status code
 - HTTP 응답상태 코드 목록
@@ -210,6 +244,7 @@
   - 3xx (리다이렉션 완료) : 클라이언트는 요청을 마치기 위해 추가 동작을 수행해야 함
   - 4xx (요청 오류) : 클라이언트의 요청에 오류가 있음
   - 5xx (서버 오류) : 서버가 유효한 요청을 수행하지 못함
+</br>
 
 ## JSON
 - JavaScript Obejct Notation
