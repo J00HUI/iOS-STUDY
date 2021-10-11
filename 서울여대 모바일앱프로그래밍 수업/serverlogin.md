@@ -260,3 +260,6 @@
   - 객체 : name/value 집합으로 중괄호 ({,})를 사용한다
     - {"name2":50, "name3":"값3", "name1":true}
  - Firefox, Explorer, Opera, Safari, Chrome 등은 JSON Parser를 내장하고 있음      
+</br>
+
+> 출처 - 서울여자대학교 모바일앱프로그래밍수업
