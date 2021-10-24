@@ -84,7 +84,7 @@
 </br>
 
 ### W11 - ServerDB1
-- 수업 pdf
+- [수업 pdf](https://github.com/ERIN56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/serverdb1.md)
 
 <img src="https://user-images.githubusercontent.com/83942393/138587197-a85c29ce-ac77-4350-a6de-b736c8e0c3db.png" width="40%"></img> <img src="https://user-images.githubusercontent.com/83942393/138587231-70464d4b-99e5-45b0-bf78-fd6aa7a1b6c9.png" width="20%"></img>
 </br>
