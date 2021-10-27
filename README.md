@@ -36,7 +36,7 @@ for iOS 🐦 Study
 </br>
 
 ## Searching
-* 
+* [velog ios를 공부합시다 링크]
 
 </br>
 </br>
