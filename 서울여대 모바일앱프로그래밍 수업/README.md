@@ -3,7 +3,7 @@
 
 ## Contents
 - [W02 - Xcode 구성 파일 소개](#W02)
-- [W03 - UIControls(Button, Slider, Segmented Control, Text Field)](#W03 - UIControls)
+- [W03 - UIControls(Button, Slider, Segmented Control, Text Field)](#W03-UIControls)
 - [W04 - Swift (Include Unit Test)](#W04)
 - [W05 - UIView(Date Picker, Picker View, Progress View, Activity Indicator, ImageView, UIView)](#W05)
 - [W06 - UIView(Segue, Navigation, app icone, git&github)](#W06)
@@ -22,7 +22,7 @@
 - [Xcode 구성 파일 소개](https://github.com/ERIN56/iOS-STUDY/blob/master/서울여대%20모바일앱프로그래밍%20수업/xcode%20구성%20파일%20소개.md)
 </br>
 
-## W03 - UIControls
+## W03-UIControls
 * <img src="https://user-images.githubusercontent.com/83942393/134768661-ebf91332-2384-4909-babf-9545f89284f7.png" width="25%"></img>[Lotto 번호 생성](https://github.com/ERIN56/iOS-STUDY/blob/master/서울여대%20모바일앱프로그래밍%20수업/lottoNumber.swift)
 </br>
 
