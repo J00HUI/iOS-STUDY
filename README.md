@@ -1,5 +1,5 @@
 # iOS
-for  iOS Study
+for iOS 🐦 Study
 
 </br>
 </br>
@@ -35,7 +35,13 @@ for  iOS Study
 * 앱을 실행하면? 앱을 build 하고 앱을 시뮬레이터에 설치하고 시뮬레이터는 앱을 실행한다.
 </br>
 
-## Searching(blogs)
+## Searching
 * 
 
+</br>
+</br>
 
+--- 
+
+> Well organized blogs
+*
