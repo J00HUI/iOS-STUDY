@@ -3,7 +3,7 @@
 
 ## Contents
 - [W02 - Xcode 구성 파일 소개](#W02)
-- [W03 - UIControls(Button, Slider, Segmented Control, Text Field)](#W03)
+- [W03 - UIControls(Button, Slider, Segmented Control, Text Field)](#W03 - UIControls)
 - [W04 - Swift (Include Unit Test)](#W04)
 - [W05 - UIView(Date Picker, Picker View, Progress View, Activity Indicator, ImageView, UIView)](#W05)
 - [W06 - UIView(Segue, Navigation, app icone, git&github)](#W06)
