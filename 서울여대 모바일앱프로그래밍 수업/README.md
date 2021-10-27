@@ -1,6 +1,20 @@
 ## 🏫 서울여대 모바일앱프로그래밍 수업
 <br>
 
+### list
+[W02 - Xcode 구성 파일 소개](#W02)
+W03 - UIControls
+W04 - Swift
+W05 - UIView
+W06 - UIView(Segue, Navigation, appicone, git&github)
+W07 - Auto Layout
+W08 - Table View
+W09 - Core Data
+W10 - Server Login(Local Host)
+W11 - ServerDB1
+W12 - ServerDB2
+W13 - TabBar
+
 ### W02
 - [Xcode 구성 파일 소개](https://github.com/ERIN56/iOS-STUDY/blob/master/서울여대%20모바일앱프로그래밍%20수업/xcode%20구성%20파일%20소개.md)
 </br>
@@ -96,3 +110,7 @@
 
 <img src="https://user-images.githubusercontent.com/83942393/138587351-9fc08ec1-24ef-4823-9560-ed40f1eebd01.png" width="20%"></img> 
 <img src="https://user-images.githubusercontent.com/83942393/138587342-71cad20f-9c13-4944-946e-7687e80c9642.png" width="20%"></img> 
+
+### W13 - TabBar
+- [수업 pdf](https://github.com/erin56/iOS-STUDY/blob/master/서울여대%20모바일앱프로그래밍%20수업/tabbar.md)
+- 소스 코드
