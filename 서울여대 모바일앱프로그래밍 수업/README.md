@@ -14,7 +14,7 @@
 - [W11 - ServerDB1](#W11-ServerDB1)
 - [W12 - ServerDB2](#W12-ServerDB2)
 - [W13 - TabBar](#W13-TabBar)
-- [W14 - MapKit](#W14-MapKit)
+- [W14 - Location, MapKit](#W14-MapKit)
 </br>
 </br>
 
