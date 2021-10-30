@@ -132,8 +132,8 @@
 ## W14-MapKit
 - [수업 내용](https://github.com/JOOHEE56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/mapkit.md)
 - 소스 코드
-  - Location
-  - GPSMap
+  - [Location](https://github.com/JOOHEE56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/location.swift)
+  - [GPSMap](https://github.com/JOOHEE56/iOS-STUDY/blob/master/%EC%84%9C%EC%9A%B8%EC%97%AC%EB%8C%80%20%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EC%97%85/gasmap.swift)
 
 <img src="https://user-images.githubusercontent.com/83942393/139530864-93f81ca0-b380-486b-8360-49fd9f60caf6.png" width="20%"></img> <img src="https://user-images.githubusercontent.com/83942393/139530866-735b4724-a601-40fe-90f4-f14014edd53e.png" width="55%"></img></br>
 
