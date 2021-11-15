@@ -36,7 +36,7 @@ for iOS 🐦 Study
 </br>
 
 ## Searching
-* [velog ios를 공부합시다 링크]()
+* [velog ios를 공부합시다 링크](https://velog.io/@erin_lee/series/iOS%EB%A5%BC-%EB%B0%B0%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4)
 
 </br>
 </br>
