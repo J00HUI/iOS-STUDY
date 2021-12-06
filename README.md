@@ -35,13 +35,9 @@ for iOS 🐦 Study
 * 앱을 실행하면? 앱을 build 하고 앱을 시뮬레이터에 설치하고 시뮬레이터는 앱을 실행한다.
 </br>
 
-## Searching
-* [velog ios를 공부합시다 링크](https://velog.io/@erin_lee/series/iOS%EB%A5%BC-%EB%B0%B0%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4)
-
-</br>
-</br>
-
 --- 
+* [velog ios를 공부합시다 링크](https://velog.io/@erin_lee/series/iOS%EB%A5%BC-%EB%B0%B0%EC%9B%8C%EB%B4%85%EC%8B%9C%EB%8B%A4)
+</br>
 
 > Well organized blogs
-*
+* https://velog.io/@wonhee010/View-Life-Cycle
